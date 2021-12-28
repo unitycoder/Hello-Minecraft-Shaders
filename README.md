@@ -1,11 +1,65 @@
-# Hello-Minecraft-Shaders
-shaders for Minecraft GLSL shadermode -- mc 自制便宜的光影包
+<div align="center"><img src="" width=""></div>
 
-这是一个关于如何编写 Minecraft 光影包的小教程<br>
-this is a small book about how to edit a shaderpacks in Minecraft with the mod of GLSL shadermod
+# Hello Minecraft Shaders
 
-详细教程请戳csdn链接：<br>
-if u want learn more, link to my csdn blogs：
+**Hello Minecraft Shaders (HMS)** is a simple tutorial **(including .md and .pdf files)** about how to programming shaders for Minecraft, based on [Optifine mod](https://github.com/sp614x/optifine) environment
+
+![image-20211228174027270](README.assets/image-20211228174027270.png)
+
+
+
+it was written when my junior years, which I most likely to named it 摆烂的大三. so it may has some problems including poor graphic performance, buggy rendering effect and hard-to-read code, what's more? I have no idea how it can compatible with [Iris mod](https://github.com/IrisShaders/Iris)
+
+
+
+# Features
+
+Volume Cloud with Ray Marching (tracing on 1/4 resolution) and mipmap：
+
+![image-20211228173111194](README.assets/image-20211228173111194.png)
+
+
+
+Atmosphere and fog simulate：
+
+![image-20211227105950704](README.assets/image-20211227105950704.png)
+
+
+
+Screen Space Reflection (SSR) with ray marching and Fresnel Reflection：
+
+![image-20211227104528872](README.assets/image-20211227104528872.png)
+
+
+
+PCF soft shadow mapping：
+
+![image-20211227103553606](README.assets/image-20211227103553606.png)
+
+
+
+Bloom with Mipmap, down sample and gauss blur：
+
+![image-20211227105430895](README.assets/image-20211227105430895.png)
+
+
+
+Caustics simulate with sine and cosine wave：
+
+![image-20211227105430895](README.assets/20201009214559165.gif)
+
+
+
+
+# Install it to MC
+
+1. first u need install OptifineHD mod
+2. then copy the shader package file to game directory `.minecraft/shaderpacks`
+3. select it in game meun：`vedio setting --> shades`
+
+
+
+# Reading online 
 
 [从0开始编写minecraft光影包（0）GLSL，坐标系，光影包结构介绍](https://blog.csdn.net/weixin_44176696/article/details/108152896)
 
@@ -27,18 +81,13 @@ if u want learn more, link to my csdn blogs：
 
 [从零开始编写minecraft光影包（9）高级水面绘制 反射与屏幕空间反射](https://blog.csdn.net/weixin_44176696/article/details/109189603)
 
-<br>
-// --------------------------------------- //
-<br>
-
-how to install it? 
-
-1. first you need install OptifineHD
-2. then pull the shaderpackge to this directory `.minecraft/shaderpacks`
-3. select it in game meun
 
 
+# Reference
 
+[1] 白玉楼之梦 - szszss' blog, ["如何编写Shadersmod光影包"](http://blog.hakugyokurou.net/)
 
+[2] sp614x, "[optifine document](https://github.com/sp614x/optifine)"
 
+[3] iq (shadertoy), ["raymarching clouds with fbm"](https://www.shadertoy.com/view/XslGRr)
 
