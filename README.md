@@ -1,4 +1,4 @@
-<div align="center"><img src="" width=""></div>
+
 
 # Hello Minecraft Shaders
 
