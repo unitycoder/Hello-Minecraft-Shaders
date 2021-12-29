@@ -16,7 +16,7 @@ it was written when my junior years, which I most likely to named it 摆烂的�
 
 Volume Cloud with Ray Marching (tracing on 1/4 resolution) and mipmap：
 
-![image-20211228173111194](README.assets/image-20211228173111194.png)
+![image-20211228173111194](README.assets/image-20211228172433715.png)
 
 
 
