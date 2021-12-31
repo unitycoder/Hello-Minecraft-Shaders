@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7064bf5c6cb63d7ce1d069851ed703b112210507
 # Hello Minecraft Shaders
 
 **Hello Minecraft Shaders (HMS)** is a simple tutorial (including .md and .pdf files) about how to programming shaders for Minecraft, based on [Optifine mod](https://github.com/sp614x/optifine) environment
@@ -14,7 +19,7 @@ it was written when my junior years, which I most likely to named it 摆烂的�
 
 Volume Cloud with Ray Marching (tracing on 1/4 resolution for speed) ：
 
-![image-20211228173111194](README.assets/image-20211228173111194.png)
+![image-20211228173111194](README.assets/image-20211228172433715.png)
 
 
 
