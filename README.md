@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 7064bf5c6cb63d7ce1d069851ed703b112210507
 # Hello Minecraft Shaders
 
 **Hello Minecraft Shaders (HMS)** is a simple tutorial (including .md and .pdf files) about how to programming shaders for Minecraft, based on [Optifine mod](https://github.com/sp614x/optifine) environment
