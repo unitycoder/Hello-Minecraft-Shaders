@@ -1,10 +1,8 @@
-<div align="center"><img src="" width=""></div>
-
 # Hello Minecraft Shaders
 
-**Hello Minecraft Shaders (HMS)** is a simple tutorial **(including .md and .pdf files)** about how to programming shaders for Minecraft, based on [Optifine mod](https://github.com/sp614x/optifine) environment
+**Hello Minecraft Shaders (HMS)** is a simple tutorial (including .md and .pdf files) about how to programming shaders for Minecraft, based on [Optifine mod](https://github.com/sp614x/optifine) environment
 
-![image-20211228174027270](README.assets/image-20211228174027270.png)
+![image-20211231142134849](README.assets/image-20211231142134849.png)
 
 
 
@@ -14,7 +12,7 @@ it was written when my junior years, which I most likely to named it 摆烂的�
 
 # Features
 
-Volume Cloud with Ray Marching (tracing on 1/4 resolution) and mipmap：
+Volume Cloud with Ray Marching (tracing on 1/4 resolution for speed) ：
 
 ![image-20211228173111194](README.assets/image-20211228173111194.png)
 
@@ -44,9 +42,11 @@ Bloom with Mipmap, down sample and gauss blur：
 
 
 
-Caustics simulate with sine and cosine wave：
+Caustics simulate with noise texture and sine & cosine wave：
 
-![image-20211227105430895](README.assets/20201009214559165.gif)
+<div align="center"><img src="README.assets/20201009214559165.gif"></div>
+
+
 
 
 
@@ -87,7 +87,7 @@ Caustics simulate with sine and cosine wave：
 
 [1] 白玉楼之梦 - szszss' blog, ["如何编写Shadersmod光影包"](http://blog.hakugyokurou.net/)
 
-[2] sp614x, "[optifine document](https://github.com/sp614x/optifine)"
+[2] sp614x (Github), "[optifine document](https://github.com/sp614x/optifine)"
 
 [3] iq (shadertoy), ["raymarching clouds with fbm"](https://www.shadertoy.com/view/XslGRr)
 
